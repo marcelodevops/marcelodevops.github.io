@@ -16,7 +16,8 @@ Senior Platform Engineer and DevOps/SRE Leader with 21+ years of overall IT expe
 * **Containers & GitOps:** Kubernetes (EKS, GKE, AKS, kOps, Architecture & Admin), Docker, ArgoCD, Helm / Helmfile, Kustomize, Istio Service Mesh, Karpenter, Kyverno, OpenShift
 * **IaC & CI/CD Automation:** Terraform, Pulumi, Ansible, GitHub Actions, GitLab CI, Azure DevOps Pipelines, Jenkins (Groovy), SaltStack, vRealize, SonarQube
 * **Observability & Reliability:** OpenTelemetry (OTel), Prometheus, Grafana, Loki, Datadog (APM & Dashboards), ELK Stack (Elasticsearch, Logstash, Kibana), Fluent Bit, Vector, New Relic, Splunk
-* **Security, Identity & Networking:** HashiCorp Vault, CyberArk Conjur, External Secrets Operator, OIDC & OAuth 2.0, AWS WAF & Shield, Apigee API Gateway, mTLS, Nginx, Linux Network Admin
+* **Security & Identity:** HashiCorp Vault, CyberArk Conjur, Keycloak, FreeIPA, External Secrets Operator, OIDC & OAuth 2.0, mTLS, AWS WAF & Shield, Apigee API Gateway
+* **Networking & Traffic Engineering:** Cilium, Calico (CNI), Envoy Proxy, Istio Service Mesh, NetBox (IPAM/DCIM), WireGuard, OpenVPN, Traefik, HAProxy, Nginx, AWS Transit Gateway, Direct Connect, Cloud Interconnect, VPC Peering, BGP, Cloudflare, CoreDNS, Wireshark, tcpdump, iperf, Linux Network Admin
 * **Languages, Data & BI Platforms:** Python (FastAPI, Scripting), Go (Golang), TypeScript / Node.js, Bash Scripting, Apache Kafka, Apache Spark, PostgreSQL, MongoDB, ClickHouse, Redis / Valkey, Microsoft Fabric, Power BI
 * **AI, MLOps & Agentic Engineering:** Kubeflow, Amazon SageMaker, Amazon Bedrock, Microsoft Copilot Studio, LangChain, Azure OpenAI / OpenAI API, Ollama, Qwen / DeepSeek Runtimes, Agent Observability & Evaluation, LangSmith, Developer & Terminal Tooling (Ghostty, Zed)
 
