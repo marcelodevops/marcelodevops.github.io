@@ -26,8 +26,67 @@ Senior Platform Engineer and DevOps/SRE Leader with 21+ years of overall IT expe
 ## PROFESSIONAL EXPERIENCE
 
 ### Senior DevOps & Platform Engineer (Contract) | Taina — Freight Forwarder Chile (`03/2025 – 05/2026`)
-* **Cloud-Native Platform & GitOps:** Designed a Terraform-based Amazon EKS platform using EKS Pod Identity, Karpenter Spot autoscaling, and ArgoCD with automated synchronization, self-healing, and pruning.
+* **Cloud-Native Platform & GitOps:** Designed a Terraform-based Amazon EKS (Kubernetes 1.30+) platform using native EKS Pod Identity, Karpenter (v1.x) Spot autoscaling, and ArgoCD with automated synchronization, self-healing, and pruning.
 * **High-Scale Ingress & Capacity:** Led Istio production-readiness and capacity assessments for onboarding ~96,000 transactions/minute onto shared ingress infrastructure; identified exhausted autoscaling headroom at 4/4 replicas and defined load testing, monitoring, staged rollout, and rollback requirements for a projected 3x traffic increase.
 * **Deep Performance Diagnostics:** Investigated reported Istio sidecar memory consumption using Envoy, cAdvisor, and Prometheus telemetry; measured approximately 199 MiB of utilization and identified dashboard aggregation as the likely source of a 1.8 GiB discrepancy.
 * **Zero-Trust Security & Identity:** Hardened Kubernetes secrets architecture with CyberArk Conjur OSS and External Secrets Operator, addressing CA trust, SAN validation, JWT service-account identity, and OIDC issuer, audience, and JWKS configuration.
-* **Agentic Logistics & Local LLM Tooling:** Built Python (FastAPI) microservices and an agentic logistics system using LangChain and Azure OpenAI to assign cargo to vessels based on dimensions, routes, and priorities, deployed on Azure Kubernetes Service (AKS); evaluated local LLM runtimes (Ollama, Qwen, DeepSeek) with LangSmith tracing.
+* **Agentic Logistics & Local LLM Tooling:** Built Python 3.12 (FastAPI) microservices and an agentic logistics system using LangChain and Azure OpenAI to assign cargo to vessels based on dimensions, routes, and priorities, deployed on Azure Kubernetes Service (AKS); evaluated local LLM runtimes (DeepSeek-R1, Qwen 2.5) via Ollama with LangSmith tracing.
+
+### Senior DevOps Engineer (Contract) | FirstVet (`05/2024 – 12/2024`)
+* **Aggressive Cloud Cost Optimization:** Spearheaded multi-tier AWS cost reduction strategies; implemented Compute Savings Plans and RDS Reserved Instances, replaced AWS Transfer Family with self-managed SFTP on EC2, and transitioned from ElastiCache Redis 7 to Valkey 7.2, generating substantial recurring cloud savings.
+* **Logging Architecture Revamp:** Eliminated redundant CloudWatch log ingestion expenses by redesigning log pipelines to route exclusively via Promtail and Loki 3.0 into centralized Grafana dashboards.
+* **Unified Observability & FinOps Alerts:** Built comprehensive Grafana, Loki, Prometheus, and OpenTelemetry observability stacks with custom FinOps cost-allocation dashboards and real-time AWS Billing anomaly alerts.
+* **Infrastructure Automation:** Managed and provisioned Amazon ECS clusters and cloud networking resources with Pulumi and TypeScript.
+
+### Senior SRE & DevOps Consultant (Expertake) | Client: Arelion (`09/2022 – 05/2024`)
+* **Mission-Critical Cloud Migration:** Delivered a cloud migration against a tight 3-month deadline from on-premises Docker Swarm to AWS, migrating approximately 50 Java microservices (Java 11/17 LTS, Spring Boot 2.7/3.x, Payara 5/6) to Amazon EKS (Kubernetes 1.25–1.28) and approximately 15 distributed stateful platforms (Kafka, ZooKeeper, RabbitMQ, MongoDB, MSSQL) to EC2 and RDS.
+* **GitOps & Release Automation:** Implemented Helmfile and ArgoCD for version-controlled Kubernetes release management; engineered enterprise CI/CD workflows in GitHub Actions for Spring Boot and Payara microservices.
+* **Perimeter DevSecOps:** Strengthened infrastructure perimeter defenses in collaboration with Cybersecurity, establishing AWS WAF rules, Shield DDoS protection, Service Control Policies (SCPs), and IDS/IPS inspection.
+* **IaC, Observability & Database Modernization:** Automated infrastructure provisioning using Terraform 1.x and AWS CDK v2 with Go; integrated Datadog and ELK Stack monitoring across migrated workloads, and orchestrated MongoDB and MSSQL cutovers to AWS RDS.
+
+### Senior DevOps & Software Engineer | H&M Group (`03/2021 – 09/2022`)
+* **Data Mesh Proof of Concept:** Worked on a Google Cloud Data Mesh proof of concept and served as a technical reference for the planned migration of data assets from Azure Storage to Google BigQuery.
+* **Real-Time Streaming Pipelines:** Implemented Apache Kafka (v2.8/3.x) streaming pipelines utilizing custom Google Cloud Dataflow Flex Templates to stream real-time events into BigQuery and Pub/Sub.
+* **Multi-Cloud Secrets Management PoC:** Developed two proofs of concept, one on Google Cloud Platform (GCP) and another on Azure Kubernetes Service (AKS), to test HashiCorp Vault (v1.8+) secrets management across multi-cloud environments.
+* **Multi-Cloud CI/CD & Telemetry:** Built reusable GitHub Actions workflows across GCP, Azure, and AWS; added Grafana dashboards and operational KPIs, and used Azure Monitor to improve application visibility.
+
+### Senior DevOps Chapter Leader | Tele2 (`07/2020 – 03/2021`)
+* **Azure DevOps & Cloud Platform:** Managed Azure DevOps platform and supported cloud-based application environments.
+* **Monitoring & Operational Visibility:** Implemented monitoring solutions and dashboards to improve visibility and operational awareness.
+* **PowerShell & Windows Automation:** Automated operational processes using PowerShell 7 and 5.1, reducing manual intervention and minimizing human error across enterprise Windows Server 2019 environments.
+* **Platform Reliability & Risk Mitigation:** Contributed to planning and risk mitigation strategies for platform reliability.
+* **Technical Mentorship:** Mentored team members and supported knowledge sharing.
+
+### Senior SRE & DevOps Engineer | Equifax (`06/2019 – 06/2020`)
+* **Apigee Enterprise Cloud Migration:** Led the cross-cloud migration of Apigee Edge API Gateway from AWS to Google Cloud Platform, integrating gateway traffic with OpenShift container clusters.
+* **Istio Service Mesh Security:** Configured and managed Kubernetes clusters on GCP with Istio service mesh and the Apigee Istio Adapter (v1.4.1).
+* **HA Kubernetes Architecture:** Engineered and managed resilient, highly available Kubernetes (v1.14/1.15) clusters in AWS Canada Central using kOps with least-privilege IAM security controls prior to regional EKS availability.
+
+### DevOps Chapter Leader & Technical Lead | Cencosud (`02/2018 – 06/2019`)
+* **Cloud Cost Optimization:** Reduced AWS cloud infrastructure costs by 40% through infrastructure optimization and automation.
+* **Provisioning Velocity (4h to 6min):** Reduced environment provisioning lead-time from 4 hours to 6 minutes (97.5% reduction) via Jenkins 2.x automation pipelines and AWS CLI scripting, eliminating human deployment errors.
+* **Security Compliance Standards:** Coordinated enterprise security hardening and compliance audits for IEC 62443 and ISO 27001 certifications across multi-cloud environments (AWS and GCP).
+* **IoT Retail Innovation:** Pioneered smart supermarket IoT initiatives, deploying automated serverless REST APIs (AWS API Gateway + Lambda) for self-service sensor arrays and Scan & Go retail devices.
+* **MLOps Workflows:** Worked on MLOps workflows using Amazon SageMaker and Kubeflow (v0.3/0.4) components.
+
+### Senior DevOps Engineer & Lead Consultant | Deloitte Canada (`02/2015 – 01/2018`)
+* **Senior DevOps Engineer Lead — Deloitte (07/2017 – 01/2018):** Cut deployment cycles by 30% and AWS costs by 20%; engineered CI pipelines with XL-Release, Jenkins, and Docker (v1.12+); built streaming data transformations with Apache Kafka (0.10/0.11), Apache Flink 1.x, and Apache Spark 2.x.
+* **DevOps Lead — Client: Sonnet Insurance (08/2015 – 06/2017):** Built automated Kafka data streaming platforms; automated deployment and server provisioning using Ansible 2.x, SaltStack, and Python; established HashiCorp Vault encryption for sensitive data.
+* **DevOps Engineer — Client: WSIB (02/2015 – 08/2015):** Planned automated deployment pipelines using Puppet, Docker, and Jenkins; configured ELK Stack monitoring and supported Guidewire production integrations.
+
+---
+
+## EDUCATION & CERTIFICATIONS
+
+* **AWS Certified Solutions Architect – Associate** — Amazon Web Services (2023)
+* **MIT Professional Education: Cloud & DevOps — Continuous Transformation** — MIT (2020 – 2021)
+* **Google Cloud Specialization: Architecting Hybrid Cloud with Anthos** — Google Cloud / Coursera (2020)
+* **Google Cloud Specialization: Security in Google Cloud Platform** — Google Cloud / Coursera (2020)
+* **Cloud Architecture with Google Cloud (Professional Certificate)** — Google Cloud / Coursera (2019)
+* **Cloud Engineering with Google Cloud (Professional Certificate)** — Google Cloud / Coursera (2019)
+* **Google Cloud Specialization: Networking in Google Cloud Platform** — Google Cloud / Coursera (2019)
+* **Kubernetes Architecture in Google Cloud Specialization** — Google Cloud / Coursera (2019)
+* **IBM SoftLayer Fundamentals Certification** — IBM (2016)
+* **Guidewire Certification: Billing, Policy & Contact Center** — Guidewire (2015)
+* **Linux Networking Administration Certification** — Linux Centre (2013)
+* **PL/SQL Developer Workshop I & II** — Oracle University (2007)
