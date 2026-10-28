@@ -35,25 +35,30 @@ Senior Platform Engineer and DevOps/SRE Leader with 21+ years of overall IT expe
 * **LLM Observability & Telemetry:** Established comprehensive end-to-end LLM observability using LangSmith and OpenTelemetry correlated with APM and RUM metrics to monitor token consumption, inference latency, agent invocation traces, and application reliability.
 * **Agentic Logistics & Local LLM Tooling:** Built Python 3.12 (FastAPI) microservices and an agentic logistics system using LangChain and Azure OpenAI to assign cargo to vessels based on dimensions, routes, and priorities, deployed on Azure Kubernetes Service (AKS); evaluated local LLM runtimes (DeepSeek-R1, Qwen 2.5) via Ollama.
 
-### Senior DevOps Engineer (Contract) | FirstVet (`05/2024 – 12/2024`)
+### Senior DevOps & SRE Consultant | Contractor Independent (`07/2020 – 12/2024`)
+*Stockholm, Sweden*
+
+Delivered enterprise multi-cloud platform engineering, zero-downtime cloud migrations, SRE observability, and FinOps cost optimizations across client assignments in Sweden:
+
+#### Assignment: FirstVet (`05/2024 – 12/2024`) — Senior DevOps Engineer (Contract)
 * **Aggressive Cloud Cost Optimization:** Spearheaded multi-tier AWS cost reduction strategies; implemented Compute Savings Plans and RDS Reserved Instances, replaced AWS Transfer Family with self-managed SFTP on EC2, and transitioned from ElastiCache Redis 7 to Valkey 7.2, generating substantial recurring cloud savings.
 * **Logging Architecture Revamp:** Eliminated redundant CloudWatch log ingestion expenses by redesigning log pipelines to route exclusively via Promtail and Loki 3.0 into centralized Grafana dashboards.
 * **Unified Observability & FinOps Alerts:** Built comprehensive Grafana, Loki, Prometheus, and OpenTelemetry observability stacks with custom FinOps cost-allocation dashboards and real-time AWS Billing anomaly alerts.
 * **Infrastructure Automation:** Managed and provisioned Amazon ECS clusters and cloud networking resources with Pulumi and TypeScript.
 
-### Senior SRE & DevOps Consultant (Expertake) | Client: Arelion (`09/2022 – 05/2024`)
+#### Assignment: Arelion (via Expertake) (`09/2022 – 05/2024`) — Senior SRE & DevOps Consultant
 * **Mission-Critical Cloud Migration:** Delivered a cloud migration against a tight 3-month deadline from on-premises Docker Swarm to AWS, migrating approximately 50 Java microservices (Java 11/17 LTS, Spring Boot 2.7/3.x, Payara 5/6) to Amazon EKS (Kubernetes 1.25–1.28) and approximately 15 distributed stateful platforms (Kafka, ZooKeeper, RabbitMQ, MongoDB, MSSQL) to EC2 and RDS.
 * **GitOps & Release Automation:** Implemented Helmfile and ArgoCD for version-controlled Kubernetes release management; engineered enterprise CI/CD workflows in GitHub Actions for Spring Boot and Payara microservices.
 * **Perimeter DevSecOps:** Strengthened infrastructure perimeter defenses in collaboration with Cybersecurity, establishing AWS WAF rules, Shield DDoS protection, Service Control Policies (SCPs), and IDS/IPS inspection.
 * **IaC, Observability & Database Modernization:** Automated infrastructure provisioning using Terraform 1.x and AWS CDK v2 with Go; integrated Datadog and ELK Stack monitoring across migrated workloads, and orchestrated MongoDB and MSSQL cutovers to AWS RDS.
 
-### Senior DevOps & Software Engineer | H&M Group (`03/2021 – 09/2022`)
+#### Assignment: H&M Group (`03/2021 – 09/2022`) — Senior DevOps & Software Engineer
 * **Data Mesh Proof of Concept:** Worked on a Google Cloud Data Mesh proof of concept and served as a technical reference for the planned migration of data assets from Azure Storage to Google BigQuery.
 * **Real-Time Streaming Pipelines:** Implemented Apache Kafka (v2.8/3.x) streaming pipelines utilizing custom Google Cloud Dataflow Flex Templates to stream real-time events into BigQuery and Pub/Sub.
 * **Multi-Cloud Secrets Management PoC:** Developed two proofs of concept, one on Google Cloud Platform (GCP) and another on Azure Kubernetes Service (AKS), to test HashiCorp Vault (v1.8+) secrets management across multi-cloud environments.
 * **Multi-Cloud CI/CD & Telemetry:** Built reusable GitHub Actions workflows across GCP, Azure, and AWS; added Grafana dashboards and operational KPIs, and used Azure Monitor to improve application visibility.
 
-### Senior DevOps Chapter Leader | Tele2 (`07/2020 – 03/2021`)
+#### Assignment: Tele2 (`07/2020 – 03/2021`) — Senior DevOps Chapter Leader
 * **Azure DevOps & Cloud Platform:** Managed Azure DevOps platform and supported cloud-based application environments.
 * **Monitoring & Operational Visibility:** Implemented monitoring solutions and dashboards to improve visibility and operational awareness.
 * **PowerShell & Windows Automation:** Automated operational processes using PowerShell 7 and 5.1, reducing manual intervention and minimizing human error across enterprise Windows Server 2019 environments.
