@@ -84,6 +84,37 @@ Delivered enterprise multi-cloud platform engineering, zero-downtime cloud migra
 
 ---
 
+### Earlier Career & Software Engineering (2005 – 2015)
+
+#### Java Developer & DevOps Specialist | BNP Paribas Cardif (`08/2014 – 02/2015`)
+*Santiago, Chile*
+* **Application Architecture & Microservices:** Engineered backend microservices with Node.js and Java (Spring Boot) integrated with Oracle PL/SQL stored procedures.
+* **Enterprise JEE Engineering:** Designed, developed, and deployed enterprise integration services using J2EE, Spring, Hibernate, Web Services (SOAP/REST), and Maven.
+* **DevOps POC & Streaming Platform:** Spearheaded Cardif's initial DevOps continuous integration POC utilizing Jenkins, Chef, Linux, SonarQube, Git, Artifactory, and Selenium; configured and administered Apache Kafka clusters.
+
+#### Java Consultant & Software Engineer | JPMorgan (`05/2013 – 05/2014`)
+*Santiago, Chile*
+* **Core Banking JEE Development:** Developed and supported mission-critical JEE applications using Spring, Hibernate, JMS messaging queues, Hermes, Pentaho, and Oracle 11g.
+* **Production Reliability & Release Engineering:** Provided 24/7 production environment support, executing scheduled releases, hotfixes, patches, and Oracle PL/SQL stored procedures.
+
+#### Technical Specialist & Integration Lead | InterSystems (`02/2009 – 04/2013`)
+*Boston, USA • Sydney, AU • Chile*
+* **Nationwide SIDRA Healthcare Platform:** Served as core technical reference for the Chilean Ministry of Health SIDRA platform deployed across 27 Health Services nationwide, developing in Caché ObjectScript.
+* **Healthcare Interoperability & Standards:** Led technical standards and integration architecture for external clinical systems (RIS-PACS, FONASA) utilizing HL7 and DICOM communication protocols.
+* **Hospital Information Systems (HIS):** Supervised and coordinated system integrations for the Military Hospital of Santiago HIS deployment.
+
+#### Head Developer | PowerMedia (`01/2008 – 01/2009`)
+*Santiago, Chile*
+* **Enterprise System Architecture:** Architected and delivered web systems using Python, Java, Flex, PHP, MySQL, PostgreSQL, and Oracle for enterprise clients including Mattel, Michelin, and Coca-Cola.
+* **Infrastructure & Public Sector Consulting:** Administered Linux servers and development networking; delivered a web application for the Ministry of Work (04/2008 – 07/2008) for social reform benefits administration using PHP and PostgreSQL.
+
+#### SysAdmin & Lead Java Developer | OAKS Agency (`01/2005 – 12/2007`)
+*Santiago, Chile*
+* **Infrastructure & Storage Administration:** Administered corporate Linux servers, network switches, routers, security perimeters, and hardware RAID (Type 3 & 5) disk arrays.
+* **Banking & Retail Web Engineering:** Promoted to Lead Developer, architecting web applications and portals in Java (Servlets, Applets, JSP), PHP, Python, and Perl with MySQL and PostgreSQL for banking and retail clients.
+
+---
+
 ## EDUCATION & CERTIFICATIONS
 
 * **AWS Certified Solutions Architect – Associate** — Amazon Web Services (2023)
@@ -98,3 +129,5 @@ Delivered enterprise multi-cloud platform engineering, zero-downtime cloud migra
 * **Guidewire Certification: Billing, Policy & Contact Center** — Guidewire (2015)
 * **Linux Networking Administration Certification** — Linux Centre (2013)
 * **PL/SQL Developer Workshop I & II** — Oracle University (2007)
+* **Sun Certified Java Programmer (SCJP 5)** — Sun Microsystems (2006)
+* **Linux Servers Administration Certification** — Linux Center (2002)
